@@ -1,6 +1,6 @@
-# Local Media
+# M3U8 Example
 
-This folder is originally created by Alexander and the media inside shall not be misused by any developer.
+**This folder is originally created by Alexander and the videos inside shall not be misused by any developer.**
 
 This local media of a short video is originally from the Alexander Ezharjan's micro-film produced in 2014.
 In order to make an M3U8 live streaming from an MP4 video, Alexander's film had to be converted to `MP4` format. 

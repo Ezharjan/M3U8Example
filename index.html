@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
     <title>Alexander's M3U8</title>
 </head>
 <style>
@@ -57,12 +62,14 @@
                 toast.className = toast.className.replace('show', '');
             }, 2000);
         }
-        let val = document.getElementById('address_div');
+        let val = document.getElementById('for_copy');
         window.getSelection().selectAllChildren(val);
         document.execCommand('copy'); 
         showToast('Copied');">
         <h1>
-            Click <a href="https://ezharjan.github.io/M3U8Example/ene.m3u8">here</a> to download, or copy M3U8 address.
+            <a id="for_copy">https://ezharjan.github.io/M3U8Example/ene.m3u8</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://ezharjan.github.io/M3U8Example/ene.m3u8">Download</a>
         </h1>
     </div>
 
